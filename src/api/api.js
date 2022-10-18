@@ -1,0 +1,1 @@
+export const BLOCKCHAIN_BTC_API = "https://blockchain.info/rawaddr/";

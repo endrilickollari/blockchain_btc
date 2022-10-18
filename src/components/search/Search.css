@@ -1,0 +1,14 @@
+#sf {
+    padding: 15px;
+    display: flex;
+}
+
+#input-container {
+    width: 70%;
+}
+
+#submit-button {
+    height: fit-content;
+    margin-left: 1%;
+    border-radius: 1px;
+}
