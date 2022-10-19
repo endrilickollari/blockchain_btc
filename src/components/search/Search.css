@@ -10,5 +10,9 @@
 #submit-button {
     height: fit-content;
     margin-left: 1%;
-    border-radius: 1px;
+    /*border-radius: 1px;*/
+}
+
+#address {
+    /*border-radius: 1px;*/
 }

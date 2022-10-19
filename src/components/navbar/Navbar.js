@@ -8,7 +8,7 @@ function Navbar() {
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="https://flowbite.com/" className="flex items-center">
                     <img
-                        src="https://toppng.com/uploads/preview/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp.png"
+                        src="/btc-logo.png"
                         className="mr-3 h-6 sm:h-9"
                         alt=""/>
                     <span
