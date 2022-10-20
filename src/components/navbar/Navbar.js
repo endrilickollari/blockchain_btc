@@ -1,6 +1,7 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Switcher from '../switcher/Switcher';
+import Dropdown from "./Dropdown";
+
 
 function Navbar() {
     return (
@@ -14,6 +15,9 @@ function Navbar() {
                     <span
                         className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">BTC Blockchain</span>
                 </a>
+                {/*<div className='md:block hidden'>*/}
+                {/*    <Dropdown/>*/}
+                {/*</div>*/}
                 <div className='md:block hidden'>
                     <Switcher/>
                 </div>
