@@ -14,7 +14,7 @@ function Search() {
     const inputRef = useRef(null);
 
     function handleClick() {
-        return fetch(`${BLOCKCHAIN_BTC_API}${inputRef.current.value}`)
+        return fetch(`${BLOCKCHAIN_BTC_API}${inputRef.current.value}`, {mode: 'no-cors'})
             .then(res => res.json())
             .then(data => {
                 setData(data);
