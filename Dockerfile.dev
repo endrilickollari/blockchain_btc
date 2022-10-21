@@ -1,0 +1,18 @@
+# Fetch the latest node image on alpine linux
+FROM node:alpine as development
+
+# Declare env
+ENV NODE_ENV development
+
+# Work dir
+WORKDIR /blockchain_btc
+
+# Install dependencies
+COPY ./package.json /blockchain_btc
+Run npm install
+
+# Copy files
+COPY . .
+
+# Start app
+CMD npm start
