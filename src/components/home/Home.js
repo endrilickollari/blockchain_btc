@@ -5,15 +5,12 @@ import Transactions from "./Transactions";
 import {useState} from "react";
 import './Home.css';
 
-export let mainData;
-
 function Home() {
     const [searchParams, setSearchParams] = useSearchParams();
     const [searchText, setSearchText] = useState('');
-    let [mainData, setMainData] = useState('');
     const hashQuery = searchParams.get('hash');
 
-     mainData = {
+    const mainData = {
         "hash160": details.hash160,
         "address": details.address,
         "n_tx": details.n_tx,
